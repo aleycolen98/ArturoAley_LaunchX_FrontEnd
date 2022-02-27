@@ -1,6 +1,4 @@
-# Front-end semana 1, practicas
+# Front-end Practicas
 ## Por Arturo Aley Cruz Colen
 
-## 1. Toma de requerimientos
-
-La documentación referente a la toma de requerimientos se encuentra [aquí](https://docs.microsoft.com/en-us/contribute/how-to-write-links)
+**Semana 1 - Introducción:** puede verse [aquí](https://github.com/aleycolen98/ArturoAley_LaunchX_FrontEnd/tree/main/1%20-%20INTRO).
