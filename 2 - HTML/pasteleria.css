@@ -1,0 +1,143 @@
+*{
+    font-family: Helvetica;
+}
+
+h1, h2{
+    color: mediumslateblue;
+    
+}
+
+
+header{
+
+    background-color: rgba(233, 233, 5, 0.685);
+    padding: 20px;
+    text-align: center;
+    border-radius: 5%;
+}
+
+footer{
+    background-color: rgba(233, 233, 5, 0.685);
+    padding: 10px;
+    border-radius: 5%;
+   
+}
+
+section{
+
+    background-color: white;
+    padding: auto;
+    text-align: center;
+    box-sizing: border-box;
+
+}
+
+.container{
+
+    position: relative;
+    display: inline-block;
+    text-align: center;
+
+} 
+
+.pasteles_head{
+
+    -webkit-text-stroke: 0.2px yellow;
+    color:black;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    font-size: large;
+    transform: translate(-50%, -50%);
+    font-weight: bold;
+}
+.pasteles_precio{
+
+    -webkit-text-stroke: 0.2px yellow;
+    color:black;
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: bolder;
+
+}
+
+.foot{ 
+    color: mediumslateblue;
+    text-align: left;
+    font-weight: bold;
+    
+    
+}
+
+.fuente-foot{
+
+    color: mediumpurple;
+    text-align: left;
+    font-weight: 500;
+}
+
+nav li{
+    
+    margin:0;
+    padding:0;
+    display:block;
+    float:left;
+    padding:0 10px;
+    font-weight: bolder;
+    text-decoration: None;
+    
+
+}
+
+.entradas{
+
+    color: mediumslateblue;
+    font-weight: bolder;
+    width: 200px;
+    border: 3px solid mediumslateblue;
+
+}
+
+.labels_formulario{
+
+    color: mediumslateblue;
+    font-weight: bolder;
+}
+
+.text_body{
+
+    color: mediumslateblue;
+    
+    
+}
+
+.text_titles{
+
+    color: mediumslateblue;
+    font-weight: bold;
+    font-size: 125%;
+
+}
+
+
+.buttons{
+
+    border-radius: 40px;
+    color: mediumslateblue;
+    border: 3px solid mediumslateblue;
+    width: 100px;
+    height: 50px;
+    background-color: white;
+
+}
+
+.tablas{
+
+    color: mediumslateblue;
+    border:100px;
+    border-color: mediumslateblue;
+    margin: auto;
+    
+}

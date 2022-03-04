@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pastelería Planetaria</title>
+    <link rel="stylesheet" href="./pasteleria.css">
+
+</head>
+
+<body>
+
+    <header>
+
+        <img src="https://i.imgur.com/ATcbfNq.png" alt="logo" width="400" weigth="400">
+
+        <nav>
+            <ul class="menu-up">
+              
+                <li><a style = "text-decoration: none" href="./pasteleria.html">Inicio</a></li>
+                <li><a style = "text-decoration: none" href="#">Pedidos</a></li>
+                <li><a style = "text-decoration: none" href="pasteleria_admin.html">Admins</a></li>
+        </ul>
+
+        </nav>
+     
+    </header>
+
+    <section>
+
+        <h1>Formulario de pedido</h1>
+        <p class="text_body">Por favor llena los campos correspondientes.</p>
+    
+    </section>
+
+    
+    <section>
+        
+        <form action="pasteleria.html">
+        
+            <p class="text_titles">Datos</p>
+            <label class="labels_formulario" for="nombre">Nombre</label>
+            <input class="entradas" type="text" id="nombre_cliente" placeholder="Nombre">
+
+            <br><br>
+            
+            <label class="labels_formulario" for="apellido_pat">Apellido Paterno</label>
+            <input class="entradas" type="text" id="apellido_pat_cliente" placeholder="Ingresa tu Apellido Paterno">
+
+            <br><br>
+
+            <label class="labels_formulario" for="apellido_mat">Apellido Materno</label>
+            <input class="entradas" type="text" id="apellido_mat_cliente" placeholder="Ingresa tu Apellido Materno">
+
+            <br><br>
+
+            <label class="labels_formulario" for="correo">Correo Electrónico</label>
+            <input class="entradas" type="text" id="email_cliente" placeholder="Ingresa tu correo">
+            
+            <br><br>
+
+            <label class="labels_formulario" for="telefono">Teléfono</label>
+            <input class="entradas" type="tel" id="tel_cliente" placeholder="Ingresa tu número telefónico" maxlength="10">
+
+            <br><br>
+
+            <label class="labels_formulario" for="coments_pedido">Comentarios</label>
+            <br>
+            <TEXtarea name="coments" class="entradas" rows="10" cols="40">Detállanos como quieres tu pastel...</TEXtarea>
+
+            <p class="text_titles">Elige los sabores</p>
+
+        
+            <label class="labels_formulario" for="chocolate">Chocolate</label>
+            <input type="checkbox" class="entradas" id="check_chocolate" name="choco" value="Chocolate">
+            
+            <br>
+
+            <label class="labels_formulario" for="red_velvet">Red Velvet</label>
+            <input type="checkbox" class="entradas" id="check_red_velvet" name="red_vel" value="Red Velvet">
+
+            <br>
+
+            <label class="labels_formulario" for="rainbow">Rainbow</label>
+            <input type="checkbox" class="entradas" id="check_rainbow" name="rainbow" value="Rainbow">
+
+            <br>
+
+            <label class="labels_formulario" for="coconut">Coco</label>
+            <input type="checkbox" class="entradas" id="check_coco" name="coco" value="Coco">
+
+
+            <p class="text_titles">Elige la decoración</p>
+
+            <label class="labels_formulario" for="bubble_gum">Bola de chicle</label>
+            <input type="checkbox" class="entradas" id="check_gum" name="gum_bubble" value="Bola de Chicle">
+
+            <br>
+
+            <label class="labels_formulario" for="choco_chips">Chispas de Chocolate</label>
+            <input type="checkbox" class="entradas" id="check_choco_chips" name="chips_choco" value="Chispas de Chocolate">
+
+            <br>
+
+            <label class="labels_formulario" for="fondant_dec">Fondant</label>
+            <input type="checkbox" class="entradas" id="check_fondant" name="dec_fondant" value="Fondant">
+
+            <br>
+
+            <label class="labels_formulario" for="diseño_colchon">Diseño Colchón</label>
+            <input type="checkbox" class="entradas" id="check_colchon" name="colchon_diseño" value="Diseño de Colchon">
+            
+            <br><br>
+
+            <input type="submit" class="buttons"> 
+            <input type="reset" class="buttons">
+
+        </form>
+
+
+    </section>
+
+    <footer>
+        
+
+        <p class="foot">Contacto</p>
+
+        <p class="fuente-foot">Dirección: Insurgentes Sur 126, Tlalpan, CDMX
+            <br>Telefono: 555 555 5555
+            <br>Email: pasteleriagal@gmail.com
+        </p>
+
+        <p class="foot">Horario</p>
+
+        <p class="fuente-foot">Lunes a Viernes
+            <br>09:00 AM - 18:00 PM
+        </p>
+        
+        
+    </footer>
+</body>
+</html>
