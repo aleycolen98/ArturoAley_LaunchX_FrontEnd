@@ -1,1 +1,1 @@
-En este directorio se encuentran los recursos de iconos e imagenes utilizados en la página. Incluyendo el código, para visualizar la pagina [haz clic aquí](https://aleycolen98.github.io/Vacunation-Page/).
+En este directorio se encuentran los recursos de iconos e imagenes utilizados en la página.
